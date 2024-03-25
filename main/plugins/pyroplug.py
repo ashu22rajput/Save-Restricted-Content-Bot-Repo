@@ -1,5 +1,4 @@
-# Join t.me/dev_gagan
-
+# Join t.me/ashu_rajput22
 import asyncio, time, os
 
 from pyrogram.enums import ParseMode , MessageMediaType
@@ -74,7 +73,7 @@ async def send_video_with_chat_id(client, sender, path, caption, duration, hi, w
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading: [Team SPY](https://t.me/dev_gagan)__**\n ',
+                '**__Uploading: [🅐🆂🅷🅸🆂🅷 🆁🅐🅹🅟🆄🆃 & 🅼🆁 🅸🅽🅳🅸🅐](https://t.me/ashu_rajput22)__**\n ',
                 upm,
                 time.time()
             )
@@ -97,7 +96,7 @@ async def send_document_with_chat_id(client, sender, path, caption, thumb_path, 
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading:__**\n**__Bot made by [Team SPY](https://t.me/dev_gagan)__**',
+                '**__Uploading:__**\n**__Bot made by [🅐🆂🅷🅸🆂🅷 🆁🅐🅹🅟🆄🆃 & 🅼🆁 🅸🅽🅳🅸🅐](https://t.me/ashu_rajput22)__**',
                 upm,
                 time.time()
             )
@@ -215,7 +214,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 progress=progress_for_pyrogram,
                 progress_args=(
                     client,
-                    "**__Unrestricting__: __[Team SPY](https://t.me/dev_gagan)__**\n ",
+                    "**__Download By__: __[🅐🆂🅷🅸🆂🅷 🆁🅐🅹🅟🆄🆃 & 🅼🆁 🅸🅽🅳🅸🅐](https://t.me/@ashu_rajput22)__**\n ",
                     edit,
                     time.time()
                 )
@@ -256,7 +255,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     logging.info(e)
                     thumb_path = None
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__" if msg.caption else "__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__"
+                caption = f"{msg.caption}\n\n__Download By__: __**[🅐🆂🅷🅸🆂🅷 🆁🅐🅹🅟🆄🆃 & 🅼🆁 🅸🅽🅳🅸🅐](https://t.me/@ashu_rajput22)**__" if msg.caption else "__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__"
                 await send_video_with_chat_id(client, sender, path, caption, duration, hi, wi, thumb_path, upm)
             elif str(file).split(".")[-1] in ['jpg', 'jpeg', 'png', 'webp']:
                 if file_n != '':
@@ -270,7 +269,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
 
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__" if msg.caption else "__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__"
+                caption = f"{msg.caption}\n\n__Download By__: __**[🅐🆂🅷🅸🆂🅷 🆁🅐🅹🅟🆄🆃 & 🅼🆁 🅸🅽🅳🅸🅐](https://t.me/@ashu_rajput22)**__" if msg.caption else "__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__"
                 await upm.edit("__Uploading photo...__")
 
                 await bot.send_file(sender, path, caption=caption)
@@ -286,7 +285,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
                 thumb_path=thumbnail(sender)
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__" if msg.caption else "__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__"
+                caption = f"{msg.caption}\n\n__Download By__: __**[🅐🆂🅷🅸🆂🅷 🆁🅐🅹🅟🆄🆃 & 🅼🆁 🅸🅽🅳🅸🅐](https://t.me/@ashu_rajput22)**__" if msg.caption else "__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__"
                 await send_document_with_chat_id(client, sender, path, caption, thumb_path, upm)
             os.remove(file)
             await upm.delete()
